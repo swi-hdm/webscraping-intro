@@ -50,7 +50,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
 
   // 2. Zur Webseite navigieren
-  await page.goto('[https://quotes.toscrape.com/](https://quotes.toscrape.com/)');
+  await page.goto('https://quotes.toscrape.com/');
 
   // 3. Interaktion: Screenshot machen
   await page.screenshot({ path: 'startseite.png' });
@@ -76,3 +76,4 @@ const puppeteer = require('puppeteer');
 })();
 ```
 
+**Ausführen:** Tippen Sie im Terminal: node index.js
