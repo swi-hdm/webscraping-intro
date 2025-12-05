@@ -6,6 +6,8 @@ theme:
   name: material
   logo: assets/images/omm-logo_orange.png
   language: de  # Sets UI (Search, navigation) to German
+  palette:
+    primary: blue
   features:
     - content.code.copy    # Copy button
     - content.code.select  # Select all button (optional but nice)
