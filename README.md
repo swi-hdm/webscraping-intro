@@ -1,6 +1,6 @@
 # Einführung in Webscraping mit Puppeteer
 
-Willkommen! In diesem Modul lernen wir, wie wir die Datenbeschaffung im Web automatisieren können. Wir nutzen dafür **Puppeteer**, ein Werkzeug, mit dem wir den Chrome-Browser fernsteuern können – als würde ein unsichtbarer Roboter für uns klicken und lesen.
+Mit Web-Scraping lässt sich die Datenbeschaffung im Web automatisieren. Wir nutzen dafür **Puppeteer**. Das ist ein Werkzeug, mit dem Sie den Chrome-Browser fernsteuern können – als würde ein unsichtbarer Roboter für uns klicken und lesen.
 
 ---
 
