@@ -1,4 +1,4 @@
-## Aufgabe: Personal Scraper (2 Punkte)
+## Laborübung 2: Personal Scraper (2 Punkte)
 
 Wählen Sie eine Webseite aus, die etwas mit einem persönlichen Hobby oder Interesse zu tun hat (z.B. eine Seite über Kochen, eine Fan-Seite für eine Band, ein Sportverein, ein Online-Shop für Sneaker, etc.). **Verboten sind**: Google, Wikipedia, Amazon, Facebook/Instagram.
 
