@@ -11,6 +11,10 @@ theme:
   features:
     - content.code.copy    # Copy button
     - content.code.select  # Select all button (optional but nice)
+    
+# Markdown Extensions
+extra_css:
+  - stylesheets/extra.css
 
 # Markdown Extensions
 markdown_extensions:
