@@ -1,0 +1,22 @@
+name: publish-docs
+on:
+  push:
+    branches:
+      - main  # Oder 'master', je nach Name deines Haupt-Branchs
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      
+      - run: pip install mkdocs-material 
+        # Falls du Plugins nutzt, füge sie hier hinzu, z.B.: pip install mkdocs-material mkdocs-minify-plugin
+        
+      - run: mkdocs gh-deploy --force
