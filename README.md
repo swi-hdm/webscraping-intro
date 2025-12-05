@@ -31,7 +31,7 @@ Erstellen Sie in Ihrem Ordner eine neue Datei namens `index.js` und kopieren Sie
 
 **Wichtig:** Lesen Sie die Kommentare im Code, um zu verstehen, was passiert!
 
-```javascript
+{% highlight javascript %}
 const puppeteer = require('puppeteer');
 
 (async () => {
@@ -70,4 +70,6 @@ const puppeteer = require('puppeteer');
   // 6. Browser schließen
   await browser.close();
 })();
+{% endhighlight %}
+
 
