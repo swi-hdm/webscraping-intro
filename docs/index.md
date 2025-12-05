@@ -77,3 +77,15 @@ const puppeteer = require('puppeteer');
 ```
 
 **Ausführen:** Tippen Sie im Terminal: node index.js
+
+Die folgenden Dinge sollten passieren (wenn alles richtig läuft):
+* Ein neuer (anonymer) Chrome-Browser wird gestartet
+* Die Webseite [https://quotes.toscrape.com/](https://quotes.toscrape.com/) wird aufgerufen
+* Puppeteer macht einen Screenshot von der Webseite und speichert dieses als `startseite.png` im gleichen Ordner wie die Datei `index.js`
+* Daten werden von der Webseite extrahiert und angezeigt
+* Puppeteer clickt auf einen Button
+* Das Script wartet 2000ms = 2 Sekunden
+* Der Browser wird gestoppt 
+
+
+
