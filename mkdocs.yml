@@ -4,6 +4,7 @@ site_url: https://swi-hdm.github.io/webscraping-intro/
 # Theme Configuration
 theme:
   name: material
+  logo: assets/images/omm-logo_orange.png
   language: de  # Sets UI (Search, navigation) to German
   features:
     - content.code.copy    # Copy button
