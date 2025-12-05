@@ -1,0 +1,9 @@
+site_name: Meine Dokumentation
+site_url: https://swi-hdm.github.io/webscraping-intro/
+theme:
+  name: material
+  features:
+    - content.code.copy # Hier ist der Copy-Button!
+
+nav:
+  - Home: index.md
