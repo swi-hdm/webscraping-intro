@@ -1,15 +1,23 @@
 site_name: Meine Dokumentation
 site_url: https://swi-hdm.github.io/webscraping-intro/
+
+# Theme Configuration
 theme:
   name: material
+  language: de  # Sets UI (Search, navigation) to German
   features:
-    - content.code.copy # Hier ist der Copy-Button!
-    - content.code.select
+    - content.code.copy    # Copy button
+    - content.code.select  # Select all button (optional but nice)
+
+# Markdown Extensions
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-      
+  - pymdownx.inlinehilite # OPTIONAL: Highlights inline code like `print()`
+  - pymdownx.superfences  # CRITICAL: Allows arbitrary nesting of code blocks
+
+# Navigation
 nav:
   - Home: index.md
