@@ -4,6 +4,12 @@ theme:
   name: material
   features:
     - content.code.copy # Hier ist der Copy-Button!
-
+    - content.code.select
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      
 nav:
   - Home: index.md
