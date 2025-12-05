@@ -29,4 +29,11 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Einführung: index.md
+  - index.md
+  - vorbereitung.md
+  - hinweise.md
+  - recorder.md
+  - aufgabenstellung.md
+
+
+
