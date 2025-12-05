@@ -12,7 +12,7 @@ Bevor wir starten, müssen Sie den "Roboter" auf Ihrem Computer einrichten.
 Wir benötigen eine Laufzeitumgebung für JavaScript außerhalb des Browsers.
 1.  Gehen Sie auf [nodejs.org](https://nodejs.org).
 2.  Laden Sie die **LTS-Version** (Long Term Support) herunter und installieren Sie sie.
-3.  *Test:* Öffnen Sie Ihr Terminal (Mac) oder die Eingabeaufforderung/PowerShell (Windows) und tippen Sie: `node -v`. Es sollte eine Versionsnummer erscheinen (z.B. v18.x.x).
+3.  *Test:* Öffnen Sie Ihr Terminal (Mac) oder die Eingabeaufforderung/PowerShell (Windows) und tippen Sie: `node -v`. Es sollte eine Versionsnummer erscheinen (z.B. v22.14.0).
 
 ### Schritt 2: Projektordner erstellen
 1.  Erstellen Sie einen neuen Ordner auf Ihrem Desktop, nennen Sie ihn z.B. `mein-scraper`.
