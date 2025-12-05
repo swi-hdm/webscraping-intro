@@ -1,12 +1,12 @@
 # Einführung in Webscraping mit Puppeteer
 
-Willkommen! In diesem Modul lernen wir, wie wir die Datenbeschaffung im Web automatisieren können. Wir nutzen dafür **Puppeteer**, ein Werkzeug, mit dem wir den Chrome-Browser fernsteuern können – als würde ein unsichtbarer Roboter für uns klicken und lesen.
+Mit Web-Scraping lässt sich die Datenbeschaffung im Web automatisieren. Wir nutzen dafür **Puppeteer**: das ist ein Werkzeug, mit dem wir den Chrome-Browser fernsteuern können – als würde ein unsichtbarer Roboter für uns klicken und lesen.
 
 ---
 
 ## Teil 1: Die Installation (Vorbereitung)
 
-Bevor wir starten, müssen wir unseren "Roboter" auf Ihrem Computer einrichten.
+Bevor wir starten, müssen Sie den "Roboter" auf Ihrem Computer einrichten.
 
 ### Schritt 1: Node.js installieren
 Wir benötigen eine Laufzeitumgebung für JavaScript außerhalb des Browsers.
@@ -16,12 +16,16 @@ Wir benötigen eine Laufzeitumgebung für JavaScript außerhalb des Browsers.
 
 ### Schritt 2: Projektordner erstellen
 1.  Erstellen Sie einen neuen Ordner auf Ihrem Desktop, nennen Sie ihn z.B. `mein-scraper`.
-2.  Öffnen Sie diesen Ordner in Ihrem Code-Editor (z.B. Visual Studio Code).
+2.  Öffnen Sie diesen Ordner in Ihrem Code-Editor (z.B. [Visual Studio Code](https://code.visualstudio.com/))).
+3.  Alternativ: Öffnen Sie Ihr Terminal (Mac) oder die Eingabeaufforderung/PowerShell (Windows) und wechseln Sie mit dem Befehl "cd" in das Verzeichnis `mein-scraper`.
 
 ### Schritt 3: Puppeteer installieren
 1.  Öffnen Sie im Editor das integrierte Terminal (`Strg + ö` oder `Ctrl + J` in VS Code).
-2.  Tippen Sie: `npm init -y` (Erstellt eine `package.json` Verwaltungsdatei).
-3.  Tippen Sie: `npm install puppeteer` (Lädt den Browser-Roboter herunter. Das dauert einen Moment).
+3.  Alternativ: Sie befinden sich bereits im Terminal (Mac) oder in der Eingabeaufforderung/PowerShell (Windows).
+3.  Tippen Sie: `npm init -y` (Erstellt eine `package.json` Verwaltungsdatei in dem Verzeichnis).
+4.  Tippen Sie: `npm install puppeteer` (Lädt den Browser-Roboter herunter. Das dauert einen Moment).
+
+*Hinweis:* Im installierten Paket **puppeteer** befindet sich ein vollständiger Chrome-Browser! 
 
 ---
 
