@@ -16,12 +16,12 @@ Wir benötigen eine Laufzeitumgebung für JavaScript außerhalb des Browsers.
 
 ### Schritt 2: Projektordner erstellen
 1.  Erstellen Sie einen neuen Ordner auf Ihrem Desktop, nennen Sie ihn z.B. `mein-scraper`.
-2.  Öffnen Sie diesen Ordner in Ihrem Code-Editor (z.B. [Visual Studio Code](https://code.visualstudio.com/))).
+2.  Öffnen Sie diesen Ordner in Ihrem Code-Editor (z.B. [Visual Studio Code](https://code.visualstudio.com/)).
 3.  Alternativ: Öffnen Sie Ihr Terminal (Mac) oder die Eingabeaufforderung/PowerShell (Windows) und wechseln Sie mit dem Befehl "cd" in das Verzeichnis `mein-scraper`.
 
 ### Schritt 3: Puppeteer installieren
 1.  Öffnen Sie im Editor das integrierte Terminal (`Strg + ö` oder `Ctrl + J` in VS Code).
-3.  Alternativ: Sie befinden sich bereits im Terminal (Mac) oder in der Eingabeaufforderung/PowerShell (Windows).
+2.  Alternativ: Sie befinden sich bereits im Terminal (Mac) oder in der Eingabeaufforderung/PowerShell (Windows).
 3.  Tippen Sie: `npm init -y` (Erstellt eine `package.json` Verwaltungsdatei in dem Verzeichnis).
 4.  Tippen Sie: `npm install puppeteer` (Lädt den Browser-Roboter herunter. Das dauert einen Moment).
 
@@ -78,15 +78,12 @@ const puppeteer = require('puppeteer');
 
 **Ausführen:** Tippen Sie im Terminal: node index.js
 
-Die folgenden Dinge sollten passieren (wenn alles richtig läuft):
+Die folgenden Dinge sollten passieren (wenn alles funktioniert):
 
-* Ein neuer (anonymer) Chrome-Browser wird gestartet
-* Die Webseite [https://quotes.toscrape.com/](https://quotes.toscrape.com/) wird aufgerufen
-* Puppeteer macht einen Screenshot von der Webseite und speichert dieses als `startseite.png` im gleichen Ordner wie die Datei `index.js`
-* Daten werden von der Webseite extrahiert und angezeigt
-* Puppeteer clickt auf einen Button
-* Das Script wartet 2000ms = 2 Sekunden
-* Der Browser wird gestoppt 
-
-
-
+* Ein neuer (anonymer) Chrome-Browser wird gestartet.
+* Die Webseite [https://quotes.toscrape.com/](https://quotes.toscrape.com/) wird aufgerufen.
+* Puppeteer erstellt einen Screenshot und speichert diesen als startseite.png im gleichen Ordner wie die Datei index.js.
+* Daten (Zitat und Autor) werden von der Webseite extrahiert und im Terminal angezeigt.
+* Puppeteer klickt auf den "Next"-Button.
+* Das Skript wartet 2 Sekunden.
+* Der Browser wird automatisch geschlossen.
