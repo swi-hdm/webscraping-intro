@@ -23,4 +23,4 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: index.md
+  - Einführung: index.md
