@@ -7,12 +7,14 @@ theme:
   logo: assets/images/omm-logo_orange.png
   language: de  # Sets UI (Search, navigation) to German
   palette:
-    primary: blue
+    # CHANGE THIS: Use 'custom' to enable your extra.css dark blue color
+    # If you want standard blue, change 'custom' back to 'blue'
+    primary: custom 
   features:
     - content.code.copy    # Copy button
-    - content.code.select  # Select all button (optional but nice)
-    
-# Markdown Extensions
+    - content.code.select  # Select all button
+
+# Custom CSS (Your dark blue settings go here)
 extra_css:
   - stylesheets/extra.css
 
@@ -22,8 +24,8 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite # OPTIONAL: Highlights inline code like `print()`
-  - pymdownx.superfences  # CRITICAL: Allows arbitrary nesting of code blocks
+  - pymdownx.inlinehilite 
+  - pymdownx.superfences  
 
 # Navigation
 nav:
