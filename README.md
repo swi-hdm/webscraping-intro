@@ -70,3 +70,4 @@ const puppeteer = require('puppeteer');
   // 6. Browser schließen
   await browser.close();
 })();
+
